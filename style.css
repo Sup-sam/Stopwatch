@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(177, 176, 227);
+}
+
+.container{
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 40px 0;
+    margin: 200px auto 0;
+    color: #000;
+    background: rgb(118, 95, 145);
+    border-radius: 80px;
+}
+
+.container h1{
+    font-weight: 200;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icons img{
+    cursor: pointer;
+    margin:0 20px;
+    width: 50px;
+}
+
+/* below for second icon i want bigger */
+.icons img:nth-child(2){
+    width: 80px;
+}
